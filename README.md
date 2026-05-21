@@ -1,1 +1,1 @@
-Biên dịch sử dụng: g++ Test.cpp Addstring.cpp -o test & ./test
+Biên dịch sử dụng: g++ Test.cpp Stringsum.cpp -o test & ./test

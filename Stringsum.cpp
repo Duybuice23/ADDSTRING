@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include "Addstring.h"
+#include "Stringsum.h"
 using namespace std;
 
 string removeZeros(string s) {
@@ -30,11 +30,6 @@ void logMessage(LogLevel level, string message) {
 string Stringsum(string a, string b) {
     a = removeZeros(a);
     b = removeZeros(b);
-
-    logMessage(INFO, "a = " + a);
-    logMessage(INFO, "b = " + b);
-    logMessage(INFO, "length a = " + to_string(a.length()));
-    logMessage(INFO, "length b = " + to_string(b.length()));
 
     int i = a.length() - 1;
     int j = b.length() - 1;

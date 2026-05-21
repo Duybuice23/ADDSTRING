@@ -1,5 +1,5 @@
-#ifndef ADDSTRING_H
-#define ADDSTRING_H
+#ifndef STRINGSUM_H
+#define STRINGSUM_H
 
 #include <string>
 
